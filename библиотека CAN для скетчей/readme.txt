@@ -1,1 +1,0 @@
-Кладем библиотеку в папку libraries  arduino IDE
