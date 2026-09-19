@@ -67,6 +67,6 @@ arduino-1.8.19\hardware\arduino\avr\bootloaders\optiboot\eeprom_writeNodeAddr\
 
 После чего можно проверить на связи ли узел по CAN , отправив команду "22" (CAN_TEST) с терминала адаптера прошивальщика. Он должен ответить "ОК". Профит
 
-если что-то не получилось , внимательно перечитываем пункты. Ну или пишем не на форуме 
+Если что-то не получилось , внимательно перечитываем пункты. Ну или пишем мне на форуме 
 
 https://forum.arduino.ru/t/udalennaya-proshivka-atmega-po-seti-can-bootloader-can/19398
