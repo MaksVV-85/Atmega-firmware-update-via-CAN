@@ -7,7 +7,7 @@
 
 https://forum.arduino.ru/t/udalennaya-proshivka-atmega-po-seti-can-bootloader-can/19398
 
-видео описание проекта 
+видео описание проекта: 
 
 https://drive.google.com/drive/folders/1Bilr16Pb26uE7jDMFBKYb2ACjUkhhWqP?usp=drive_link
 
