@@ -1,0 +1,175 @@
+menu.cpu=Processor
+menu.UARTspeed = UARTspeed
+menu.variant = Variant
+
+##############################################################
+
+can.name=Arduino CAN_BUS
+
+can.upload.tool=avrdude
+can.upload.protocol=arduino
+
+can.bootloader.tool=avrdude
+can.bootloader.unlock_bits=0x3F
+can.bootloader.lock_bits=0x0F
+
+can.build.board=AVR_PRO
+can.build.core=arduino
+can.build.variant=eightanaloginputs
+
+can.menu.UARTspeed.uart19200=19200
+can.menu.UARTspeed.uart19200.upload.speed=19200
+can.menu.UARTspeed.uart38400 = 38400
+can.menu.UARTspeed.uart38400.upload.speed=38400
+can.menu.UARTspeed.uart57600 = 57600
+can.menu.UARTspeed.uart57600.upload.speed=57600
+can.menu.UARTspeed.uart115200 = 115200
+can.menu.UARTspeed.uart115200.upload.speed=115200
+
+
+can.menu.variant.atmega328 = atmega328P
+can.menu.variant.atmega328.build.mcu = atmega328p
+can.menu.variant.atmega328PB = atmega328PB
+can.menu.variant.atmega328PB.build.mcu = atmega328pb
+
+
+## Arduino CAN_BUS ATmega328_16MHz CAN 200kb/s
+## --------------------------------------------------
+can.menu.cpu.16MHz_328_can200= 16MHz_atmega328 CAN_200kb/s
+
+can.menu.cpu.16MHz_328_can200.upload.maximum_size=28672
+can.menu.cpu.16MHz_328_can200.upload.maximum_data_size=2048
+
+
+can.menu.cpu.16MHz_328_can200.bootloader.low_fuses=0xFF
+can.menu.cpu.16MHz_328_can200.bootloader.high_fuses=0xD0
+can.menu.cpu.16MHz_328_can200.bootloader.extended_fuses=0xFD
+can.menu.cpu.16MHz_328_can200.bootloader.file=optiboot/eeprom_writeNodeAddr/CAN200_8_at328p16_eep05_v1_0_0.hex
+
+can.menu.cpu.16MHz_328_can200.build.f_cpu=16000000L
+
+
+## Arduino CAN_BUS ATmega328_16MHz CAN 250kb/s
+## --------------------------------------------------
+can.menu.cpu.16MHz_328_can250= 16MHz_atmega328 CAN_250kb/s
+
+can.menu.cpu.16MHz_328_can250.upload.maximum_size=28672
+can.menu.cpu.16MHz_328_can250.upload.maximum_data_size=2048
+
+
+can.menu.cpu.16MHz_328_can250.bootloader.low_fuses=0xFF
+can.menu.cpu.16MHz_328_can250.bootloader.high_fuses=0xD0
+can.menu.cpu.16MHz_328_can250.bootloader.extended_fuses=0xFD
+can.menu.cpu.16MHz_328_can250.bootloader.file=optiboot/eeprom_writeNodeAddr/CAN250_8_at328p16_eep05_v1_0_0.hex
+
+can.menu.cpu.16MHz_328_can200.build.f_cpu=16000000L
+
+
+## Arduino CAN_BUS ATmega328_16MHz CAN 500kb/s
+## --------------------------------------------------
+can.menu.cpu.16MHz_328_can500= 16MHz_atmega328 CAN_500kb/s
+
+can.menu.cpu.16MHz_328_can500.upload.maximum_size=28672
+can.menu.cpu.16MHz_328_can500.upload.maximum_data_size=2048
+
+
+can.menu.cpu.16MHz_328_can500.bootloader.low_fuses=0xFF
+can.menu.cpu.16MHz_328_can500.bootloader.high_fuses=0xD0
+can.menu.cpu.16MHz_328_can500.bootloader.extended_fuses=0xFD
+can.menu.cpu.16MHz_328_can500.bootloader.file=optiboot/eeprom_writeNodeAddr/CAN500_8_at328p16_eep05_v1_0_0.hex
+
+can.menu.cpu.16MHz_328_can500.build.f_cpu=16000000L
+
+
+
+## 
+## --------------------------------------------------
+can.menu.cpu.16MHzatmega328_probel =  
+
+
+
+## Arduino CAN_BUS ATmega328_8MHz CAN 200kb/s
+## --------------------------------------------------
+can.menu.cpu.8MHz_328_can200= 8MHz_atmega328 CAN_200kb/s
+
+can.menu.cpu.8MHz_328_can200.upload.maximum_size=28672
+can.menu.cpu.8MHz_328_can200.upload.maximum_data_size=2048
+
+
+can.menu.cpu.8MHz_328_can200.bootloader.low_fuses=0xFF
+can.menu.cpu.8MHz_328_can200.bootloader.high_fuses=0xD0
+can.menu.cpu.8MHz_328_can200.bootloader.extended_fuses=0xFD
+can.menu.cpu.8MHz_328_can200.bootloader.file=optiboot/eeprom_writeNodeAddr/CAN200_8_at328p8_eep05_v1_0_0.hex.hex
+
+can.menu.cpu.8MHz_328_can200.build.f_cpu=8000000L
+
+
+## Arduino CAN_BUS ATmega328_8MHz CAN 250kb/s
+## --------------------------------------------------
+can.menu.cpu.8MHz_328_can250= 8MHz_atmega328 CAN_250kb/s
+
+can.menu.cpu.8MHz_328_can250.upload.maximum_size=28672
+can.menu.cpu.8MHz_328_can250.upload.maximum_data_size=2048
+
+
+can.menu.cpu.8MHz_328_can250.bootloader.low_fuses=0xFF
+can.menu.cpu.8MHz_328_can250.bootloader.high_fuses=0xD0
+can.menu.cpu.8MHz_328_can250.bootloader.extended_fuses=0xFD
+can.menu.cpu.8MHz_328_can250.bootloader.file=optiboot/eeprom_writeNodeAddr/CAN250_8_at328p8_eep05_v1_0_0.hex.hex
+
+can.menu.cpu.8MHz_328_can250.build.f_cpu=8000000L
+
+
+## Arduino CAN_BUS ATmega328_8MHz CAN 500kb/s
+## --------------------------------------------------
+can.menu.cpu.8MHz_328_can500= 8MHz_atmega328 CAN_500kb/s
+
+can.menu.cpu.8MHz_328_can500.upload.maximum_size=28672
+can.menu.cpu.8MHz_328_can500.upload.maximum_data_size=2048
+
+
+can.menu.cpu.8MHz_328_can500.bootloader.low_fuses=0xFF
+can.menu.cpu.8MHz_328_can500.bootloader.high_fuses=0xD0
+can.menu.cpu.8MHz_328_can500.bootloader.extended_fuses=0xFD
+can.menu.cpu.8MHz_328_can500.bootloader.file=optiboot/eeprom_writeNodeAddr/CAN500_8_at328p8_eep05_v1_0_0.hex.hex
+
+can.menu.cpu.8MHz_328_can500.build.f_cpu=8000000L
+
+
+## 
+## --------------------------------------------------
+can.menu.cpu.16MHzatmega328_probel1 =  
+
+
+
+## Arduino CAN_BUS eeprom_writeNodeAddr_16MHz
+## --------------------------------------------------
+can.menu.cpu.16MHz_328_writeAddr= 16MHz_atmega328 writeAddress
+
+can.menu.cpu.16MHz_328_writeAddr.upload.maximum_size=28672
+can.menu.cpu.16MHz_328_writeAddr.upload.maximum_data_size=2048
+
+
+can.menu.cpu.16MHz_328_writeAddr.bootloader.low_fuses=0xFF
+can.menu.cpu.16MHz_328_writeAddr.bootloader.high_fuses=0xD0
+can.menu.cpu.16MHz_328_writeAddr.bootloader.extended_fuses=0xFD
+can.menu.cpu.16MHz_328_writeAddr.bootloader.file=optiboot/eeprom_writeNodeAddr/eeprom_writeNodeAddr.ino.with_bootloader.standard.hex
+
+can.menu.cpu.16MHz_328_writeAddr.build.f_cpu=16000000L
+
+
+
+## Arduino CAN_BUS eeprom_writeNodeAddr_8MHz
+## --------------------------------------------------
+can.menu.cpu.8MHz_328_writeAddr= 8MHz_atmega328 writeAddress
+
+can.menu.cpu.8MHz_328_writeAddr.upload.maximum_size=28672
+can.menu.cpu.8MHz_328_writeAddr.upload.maximum_data_size=2048
+
+
+can.menu.cpu.8MHz_328_writeAddr.bootloader.low_fuses=0xFF
+can.menu.cpu.8MHz_328_writeAddr.bootloader.high_fuses=0xD0
+can.menu.cpu.8MHz_328_writeAddr.bootloader.extended_fuses=0xFD
+can.menu.cpu.8MHz_328_writeAddr.bootloader.file=optiboot/eeprom_writeNodeAddr/eeprom_writeNodeAddr.ino.with_bootloader.standard.hex
+
+can.menu.cpu.8MHz_328_writeAddr.build.f_cpu=8000000L
