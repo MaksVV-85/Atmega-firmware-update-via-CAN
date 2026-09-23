@@ -13,7 +13,7 @@ https://drive.google.com/drive/folders/1Bilr16Pb26uE7jDMFBKYb2ACjUkhhWqP?usp=dri
 
 https://disk.yandex.ru/d/RzL-MNEAUNhV0w
 
-Ниже по ссылке папка. Там можно скачать чистую Arduino IDE 1.8.19 и уже подготовленную IDE 1.8.19 для прошивки по CAN
+Ниже по ссылке папка. Там можно скачать чистую Arduino IDE 1.8.19 и уже подготовленную IDE 1.8.19 для прошивки по CAN:
 
 https://drive.google.com/drive/folders/1cDa1LPovmXZVGapuglcH32lAkueR9ahd?usp=sharing
 
